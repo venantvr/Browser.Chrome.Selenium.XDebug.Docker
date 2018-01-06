@@ -11,8 +11,8 @@ docker run -ti --rm -e DISPLAY=$DISPLAY \
     -v /dev/shm:/dev/shm \
     -v /var/www/preprod:/var/www/preprod \
     --shm-size 8G \
-    --add-host='recipe.concilio.com:'$hostIp \
-    --add-host='preprod.concilio.com:'$hostIp \
+    --add-host='recipe.hack-my-domain.fr:'$hostIp \
+    --add-host='preprod.hack-my-domain.fr:'$hostIp \
     --device /dev/snd \
     --device /dev/dri \
     --group-add audio \
