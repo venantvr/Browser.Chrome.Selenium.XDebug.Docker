@@ -13,4 +13,4 @@ Chrome conteneurise avec Selenium WebDriver et XDebug pour les tests automatises
 
 ## Stack
 
-[![Stack](https://skillicons.dev/icons?i=selenium,docker,php,js,go&theme=dark)](https://skillicons.dev)
+[![Stack](https://skillicons.dev/icons?i=docker,selenium,php&theme=dark)](https://skillicons.dev)
