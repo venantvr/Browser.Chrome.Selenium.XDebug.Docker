@@ -1,3 +1,19 @@
 # Browser.Chrome.Selenium.XDebug.Docker
 
-Source : https://gist.github.com/ziadoz/3e8ab7e944d02fe872c3454d17af31a5#file-install-sh-L32
+Chrome conteneurise avec Selenium WebDriver et XDebug pour les tests automatises PHP.
+
+## Structure
+
+| Fichier / Dossier | Role |
+|-|-|
+| `Dockerfile` | Image Docker Chrome + Selenium + XDebug |
+| `chrome/` | Binaires ChromeDriver et paquets `.deb` |
+| `selenium/` | Selenium Standalone Server (JAR) |
+| `start-browser.sh` | Script de lancement du navigateur |
+
+## Stack
+
+- Docker
+- Google Chrome
+- Selenium WebDriver
+- XDebug
